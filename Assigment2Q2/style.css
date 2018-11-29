@@ -1,0 +1,55 @@
+html{
+
+    padding: 30px 50px;
+}
+button ,#decode{
+    width: 120px;
+    height: 30px;
+    border: solid black;
+    box-shadow: darkgray;
+    -moz-box-shadow: black;
+}
+#buttons :hover{
+    color: #6899a9;
+    background-color: rgba(81, 85, 72, 0.22);
+}
+
+#hide{
+    float: right;
+}
+
+#info-display{
+    float: top;
+    width: 100%;
+    height: 300px;
+    border: solid black;
+    align-content: normal;
+}
+/*form{
+    border: solid black;
+    width: 200px;
+    height: 25px;
+}*/
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 60%;
+    padding: 10px;
+    height: 100px;
+}
+#barcode_dis{
+    align-self: center;
+    alignment: center;
+    position: relative;
+    border: solid black;
+}
+
+div.column #img_bar{
+    width: 100%;
+    height: 50px;
+    float: right;
+    align-self: center;
+}
